@@ -1,0 +1,1 @@
+Landing Page project in the Odin project basics path.
