@@ -5,7 +5,7 @@ body {
 }
 
 .header {
-    padding: 8px 180px 130px 180px;
+    padding: 8px 200px 130px 200px;
     background-color: #1F2937;
     display: flex;
     flex-flow: column wrap;
@@ -21,9 +21,23 @@ h2, h1, ul {
     margin: 0;
 }
 
-.head_link {
-    display: inline;
+h2 {
+    font-size: 24px;
+    color: #F9FAF8;
 }
+
+.links {
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
 
 .title {
     display: flex;
@@ -31,6 +45,25 @@ h2, h1, ul {
 
 .description {
     flex: auto;
+}
+
+h1 {
+    font: 48px extra-bold;
+    color: #F9FAF8;
+}
+
+.header_text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 8px 20px;
 }
 
 .image {
