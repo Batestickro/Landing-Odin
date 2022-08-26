@@ -144,3 +144,10 @@ a {
     margin: 0;
 }
 
+.footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
