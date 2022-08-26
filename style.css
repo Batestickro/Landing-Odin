@@ -97,3 +97,22 @@ button {
     border: none;
     border-radius: 16px;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 110px 200px 110px 200px;
+}
+
+.words {
+    color: #474d49;
+    font-size: 36px;
+    font-family: "Brush Script MT", cursive;
+    font-style: italic;
+}
+
+.author {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+}
