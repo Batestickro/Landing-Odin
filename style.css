@@ -53,18 +53,27 @@ a {
     color: #F9FAF8;
 }
 
-.header_text {
+.header_text, .join_text {
+    margin: 5px;
     font-size: 18px;
     color: #E5E7EB;
 }
 
-button {
+.sign, .sign_b {
     background-color: #3882F6;
     color: white;
-    border: none;
-    border-radius: 8px;
+    border-radius: 12px;
     font-size: 20px;
-    padding: 8px 20px;
+    padding: 8px 40px;
+}
+
+.sign {
+    border: none;
+    margin-top: 6px;
+}
+
+.sign_b {
+    border-color: white;
 }
 
 .main_horn {
@@ -100,7 +109,7 @@ button {
 
 .quote {
     background-color: #E5E7EB;
-    padding: 110px 200px 110px 200px;
+    padding: 100px 200px;
 }
 
 .words {
@@ -116,3 +125,22 @@ button {
     display: flex;
     justify-content: end;
 }
+
+.call_to {
+}
+
+.action {
+    margin: 100px 200px;
+    padding: 40px 100px;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.join, .sign_b{
+    margin: 0;
+}
+
